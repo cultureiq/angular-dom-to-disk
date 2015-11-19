@@ -10,7 +10,7 @@ With bower, bower install cultureiq/angular-dom-to-disk
 Without bower, clone the git repo
 
 #Some notes:
-We make use of the latest stable release of html2canvas, not the currently available alpha version with some bug fixes.  In this release, there is one important problem: tspan elements in svg are not drawn properly (they are doubled up).  This is a known issue and has a simple fix (see R.  Oosterholt's answer at http://stackoverflow.com/questions/29597242/svg-text-attribute-is-doubling-html2canvas ).  Thus the modifed html2canvas.js file included in the main directory.  All other dependencies are included in the bower_components as normal.
+We make use of the latest stable release of html2canvas - not the currently available alpha version with some bug fixes.  In this release, there is one important problem: tspan elements in svg are not drawn properly (they are doubled up).  This is a known issue and has a simple fix (see R.  Oosterholt's answer at http://stackoverflow.com/questions/29597242/svg-text-attribute-is-doubling-html2canvas ).  Thus the modifed html2canvas.js file included in the main directory.  All other dependencies are included in the bower_components as normal.
 
 #To Use:
 Add the attribute ciq-downloadable="filename.extension" to any DOM element.  Will add a small icon on hover to the corner of that element, which will download a png of that element upon clicking.  This is not a completely finalized product - directive does not always work properly when applied to other angular directives.
