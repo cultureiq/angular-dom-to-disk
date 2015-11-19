@@ -1,0 +1,14 @@
+{
+  "name": "reimg",
+  "homepage": "https://github.com/gillyb/reimg",
+  "_release": "cc585bb29a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cc585bb29a3239bc2fa03e342682577ecf9261b7"
+  },
+  "_source": "git://github.com/gillyb/reimg.git",
+  "_target": "*",
+  "_originalSource": "gillyb/reimg",
+  "_direct": true
+}

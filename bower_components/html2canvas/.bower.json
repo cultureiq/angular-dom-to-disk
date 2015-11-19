@@ -1,0 +1,8 @@
+{
+  "name": "html2canvas",
+  "main": "index.js",
+  "_source": "/ciq-downloadable/html2canvas.js",
+  "_target": "*",
+  "_originalSource": "./html2canvas.js",
+  "_direct": true
+}
