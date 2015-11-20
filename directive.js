@@ -41,7 +41,7 @@ angular.module('ciq.downloadable', []).
 			};
 
 
-			var jqueryButton = $('<div style="z-index:100;width:0;height:0;display:inline-block;opacity:0"><button style="background-color:black;border-radius:4px;border:none;padding:0;margin-left:-24px;width:24px;height:24px;">Icon</button></div>');
+			var jqueryButton = $('<div style="z-index:100;width:0;height:0;display:inline-block;opacity:0"><button style="background-color:black;border-radius:4px;border:none;padding:0;margin-left:-24px;width:24px;height:24px;"><img src="arrow_on_white.png" style="height:24px"></button></div>');
 			$(element).before(jqueryButton);
 			$(jqueryButton).position({
 				my: 'right top',
