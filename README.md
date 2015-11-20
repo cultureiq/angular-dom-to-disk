@@ -15,4 +15,4 @@ We make use of the latest stable release of html2canvas - not the currently avai
 #To Use:
 Add the attribute ciq-downloadable="filename.extension" to any DOM element.  Will add a small icon on hover to the corner of that element, which will download a png of that element upon clicking.  This is not a completely finalized product - directive does not always work properly when applied to other angular directives.
 
-Likely you will want to change the download icon - we use ion-ios-download-outline.  Simply replace 'Icon' in the definition of jqueryButton (line 44) with the appropriate element.
+You may want to change the actual icon - we use ion-ios-download-outline.  Included in the repo is a basic png of a similar icon.  To change, simply swap out the img tag in the definition of jqueryButton (line 44) for whatever you'd like.
